@@ -12,6 +12,7 @@ Website: https://leaguemark.io (launching 23 November 2026)
 
 ## Status
 
+Pre-launch. The Rulebook ([RULEBOOK.md](RULEBOOK.md), v1.0) was published on 30 October 2026. The schema, IDs and weekly hashes will be added from November 2026.
 Pre-launch. Files will be added from November 2026.
 
 ## Use and citation
