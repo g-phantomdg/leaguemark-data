@@ -17,3 +17,7 @@ Pre-launch. Files will be added from November 2026.
 ## Use and citation
 
 A data use and citation policy will be published with the first release. Until then, please contact hello@leaguemark.io before reusing anything here.
+
+Licence
+
+The Rulebook (RULEBOOK.md) is licensed CC BY 4.0. All other files are © Leaguemark, all rights reserved, and covered by the data use and citation policy. Until it is published, please contact hello@leaguemark.io before reusing anything here.
