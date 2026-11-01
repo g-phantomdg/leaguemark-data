@@ -1,6 +1,6 @@
 # Leaguemark Rulebook
 
-**Version 1.0** · Published 30 October 2026 · Applies to every record judged under Rules version v1.0
+**Version 1.0.1** · Published 1 November 2026 · Applies to every record judged under Rules version v1.0.1. Version 1.0 differs only in the wording of rule 9.2 step 6 (see Changes)
 Licence: this Rulebook text is CC BY 4.0. Data and other files in the repository are covered by our data use and citation policy. · Repository: github.com/leaguemark/leaguemark-data
 
 This Rulebook sets out how Leaguemark decides what is true about the business of NBA Europe, how sure we are, and how anyone can check that we kept to these rules. It is fixed before the data it governs. Rules change only forward, under a new version number (section 8), and never after we have seen the results they would affect.
@@ -239,7 +239,7 @@ Each week we publish a proof that our private records existed in their exact for
 3. Write a manifest listing each file and its hash, the previous week's manifest hash and the Rulebook version in force.
 4. List in the manifest any row approved before last week's proof whose content has changed since (6.3), and any removal or change made under 6.5.
 5. Hash the manifest and take an independent OpenTimestamps proof of it.
-6. Commit the exact files to our private repository, and the manifest hash and timestamp proof to this public repository. Both repositories are protected against history rewrites, and commits are signed. The only exception is a removal under 6.5, which is recorded in the next manifest.
+6. Commit the exact files to our private repository, and the manifest hash and timestamp proof to this public repository. This public repository is protected against history rewrites. Access to the private repository is restricted, and if any file in it were changed, it would no longer match the hashes in the manifest, whose own hash and timestamp proof are published here. Commits are signed. The only exception is a removal under 6.5, which is recorded in the next manifest.
 
 Because each manifest includes the previous week's hash, a missing or redone week is visible.
 
@@ -250,3 +250,8 @@ Because each manifest includes the previous week's hash, a missing or redone wee
 No change-log row was approved and no weekly proof was published until this Rulebook and our record-keeping setup were in place. The first manifest says so and names the Rulebook version it starts under.
 
 One exception was allowed: if a franchise award, owner ratification or EuroLeague defection had happened before that point, its row could be approved under v0, and the first manifest would name it.
+
+## Changes
+
+- **v1.0.1 (1 November 2026), clarification (rule 8.2):** rule 9.2 step 6 now says how each repository is protected. No status, score or ID changes.
+- **v1.0 (30 October 2026):** first published version.
